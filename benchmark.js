@@ -123,7 +123,6 @@
 
   /*--------------------------------------------------------------------------*/
 
-
   var isAsyncFunction;
   try {
     var asyncFunctionPrototype = new Function('return Object.getPrototypeOf(async function () { })')();
